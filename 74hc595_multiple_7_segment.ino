@@ -1,5 +1,3 @@
-#define SIZE_OF_BUFFER 35
-
 int DS_pin_1 = 4;
 int STCP_pin_1 = 3;
 int SHCP_pin_1 = 2;
@@ -8,7 +6,6 @@ int STCP_pin_2 = 7;
 int SHCP_pin_2 = 9;
 int button_1 = 10;
 
-int buffer_1 [SIZE_OF_BUFFER] = {};
 int check = false;
 int counter1 = 0;
 
@@ -17,6 +14,7 @@ int segment_1_digit_2 = 0;
 int segment_2_digit_1 = 0;
 int segment_2_digit_2 = 0;
 
+/*
 int digits[10][8] = { {0, 1, 1, 1, 1, 1, 1, 0},
                       {1, 0, 1, 1, 0, 0, 0, 0},
                       {0, 1, 1, 0, 1, 1, 0, 1},
@@ -28,6 +26,7 @@ int digits[10][8] = { {0, 1, 1, 1, 1, 1, 1, 0},
                       {0, 1, 1, 1, 1, 1, 1, 1},
                       {0, 1, 1, 1, 1, 0, 1, 1},
                   };
+*/
 //int dec_digits[10] = {1, 79, 18, 6, 76, 36, 32, 15, 0, 4};
 int dec_digits[10] = {3, 159, 37, 13, 153, 73, 65, 31, 1, 9};
 
